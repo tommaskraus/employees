@@ -43,7 +43,7 @@ public interface Constants {
 	/**
 	 * Jmeno zamestnance, ktery se bude vyhledavat
 	 */
-	public final String DEFAULT_SEARCH_HUMAN = "Alexandr Procházka";
+	public final String DEFAULT_SEARCH_HUMAN = "Alexandr Prochazka";
 	
 	/**
 	 * Maximalni plat ve firme
