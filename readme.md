@@ -1,26 +1,26 @@
 # Java Employees
-Testovací úkol
+TestovacÃ­ Ãºkol
 
-## Poadavky
+## PoÅ¾adavky
 Java 8
 
 ## Struktura
-`bin` - zkompilované soubory
-`jars` - knihovny potøebné pro testy
-`src` - zdrojové soubory aplikace
+`bin` - zkompilovanÃ© soubory
+`jars` - knihovny potÅ™ebnÃ© pro testy
+`src` - zdrojovÃ© soubory aplikace
 `test` - unit testy
 
 ## Popis
-Po spuštìní aplikace je zobrazena nápovìda a dle zadanıch parametrù jsou spouštìny jednotlivé dílèí úkoly.
+Po spuÅ¡tÄ›nÃ­ aplikace je zobrazena nÃ¡povÄ›da a dle zadanÃ½ch parametrÅ¯ jsou spouÅ¡tÄ›ny jednotlivÃ© dÃ­lÄÃ­ Ãºkoly.
 
-## Spuštìní
-Lze udìlat pomocí pøiloenıch souborù compile.bat a run.bat, pøípadnì pøíkazy
+## SpuÅ¡tÄ›nÃ­
+Lze udÄ›lat pomocÃ­ pÅ™iloÅ¾enÃ½ch souborÅ¯ compile.bat a run.bat, pÅ™Ã­padnÄ› pÅ™Ã­kazy
 
-`zkompilování` - javac -d bin src/employees/*.java
-`spuštìní` - java -cp bin employees.Main
+`zkompilovÃ¡nÃ­` - javac -d bin src/employees/*.java
+`spuÅ¡tÄ›nÃ­` - java -cp bin employees.Main
 
-## Testování
-Lze udìlat pomocí pøiloenıch souborù compileTests.bat a runTests.bat, pøípadnì pøíkazy
+## TestovÃ¡nÃ­
+Lze udÄ›lat pomocÃ­ pÅ™iloÅ¾enÃ½ch souborÅ¯ compileTests.bat a runTests.bat, pÅ™Ã­padnÄ› pÅ™Ã­kazy
 
-`zkompilování testù` - javac -cp jars/junit-4.13.2.jar;org.hamcrest.core_1.3.0.v201303031735.jar;bin -d bin test/employees/*.java
-`spuštìní testù` - java -cp jars/junit-4.13.2.jar;jars/org.hamcrest.core_1.3.0.v201303031735.jar;bin employees.MainForTests
+`zkompilovÃ¡nÃ­ testÅ¯` - javac -cp jars/junit-4.13.2.jar;org.hamcrest.core_1.3.0.v201303031735.jar;bin -d bin test/employees/*.java
+`spuÅ¡tÄ›nÃ­ testÅ¯` - java -cp jars/junit-4.13.2.jar;jars/org.hamcrest.core_1.3.0.v201303031735.jar;bin employees.MainForTests
